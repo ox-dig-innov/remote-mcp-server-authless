@@ -21,7 +21,7 @@ export class MyMCP extends McpAgent {
 
 		// Calculator tool with multiple operations
 		this.server.tool(
-			"calculate",
+			"calculator",
 			{
 				operation: z.enum(["add", "subtract", "multiply", "divide"]),
 				a: z.number(),
